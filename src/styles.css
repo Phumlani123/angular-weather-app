@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.register,.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url('assets/img/bg-image1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+  
+  }
+  
